@@ -1,0 +1,100 @@
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image:url("C.png");
+  background-color: white;
+  font-family: "lato", sans-serif;
+}
+
+p{
+    color: pink;
+}
+
+h1 {
+display: block;
+text-align: center;
+color: rgb(116, 116, 116);
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    color: rgb(187, 186, 189);
+    font-style:italic;
+    }
+
+a{ 
+
+    display: block;
+    text-align: center;
+    color:black;
+}
+a:hover{
+
+    color: red;
+}
+
+
+#text{
+
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 100%;
+}
+
+
+.container{
+    
+    background-color:rgba(101, 116, 121, 0.253);
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+}
+input[type=text] {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+input[type=email]  {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(24, 20, 20);
+
+}
+
+input[type=password]  {
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+}
+
+
+
+input[type=submit] {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.5em 0.6em 0;
+    border-radius:4em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#f14e4e;
+    text-align:center;
+    align-self: center;
+    transition: all 0.2s;
+    }
+    input[type=submit] :hover{
+    background-color:#4095c6;
+    }
+
+    
+
+
